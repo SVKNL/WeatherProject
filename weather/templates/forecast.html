@@ -1,0 +1,81 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h1>{% for city in cities %}</h1>
+{ city }
+{% endfor %}
+<h1 align="center">{{ city }}</h1>
+<div style="overflow-x: auto;">
+  <table align="center">
+    <tr>
+          <td><pre>Time</pre></td>
+          <td><pre>Now</pre></td>
+          {% for i in hour %}
+          <td>
+            <pre>{{ i }}:00 </pre>
+          </td>
+          {% endfor %}
+    </tr>
+    <tr>
+        <td><pre>Temperature(C)</pre></td>
+        {% for i in weather %}
+          <td>
+            <pre>{{ i }} </pre>
+          </td>
+          {% endfor %}
+    </tr>
+      <tr>
+        <td><pre>Humidity(%)</pre></td>
+        {% for i in humidity %}
+          <td>
+            <pre>{{ i }} </pre>
+          </td>
+          {% endfor %}
+    </tr>
+      {% if is_rain %}
+      <tr>
+        <td><pre>Precipitation(%)</pre></td>
+        {% for i in precipitation %}
+          <td>
+            <pre>{{ i }} </pre>
+          </td>
+          {% endfor %}
+    </tr>
+      {% endif %}
+
+
+  </table>
+</div>
+<table>
+
+
+  <tr>
+    <th scope="col"><pre>Date</pre></th>
+    <th scope="col"><pre>Morning</pre></th>
+    <th scope="col"><pre>Day</pre></th>
+    <th scope="col"><pre>Evening</pre></th>
+    <th scope="col"><pre>Night</pre></th>
+  </tr>
+  {% for i in shortlist %}
+  <tr>
+
+    <td><pre>{{ i.date }}</pre></td>
+    <td><pre>Temperature {{ i.morning.weather }} Precipitation {{ i.morning.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.day.weather }} Precipitation {{ i.day.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.evening.weather }} Precipitation {{ i.evening.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.night.weather }} Precipitation {{ i.night.precipitation }}%</pre></td>
+  </tr>
+{% endfor %}
+</table>
+        </td>
+
+    </tr>
+
+
+</table>
+
+
+
+
+
+{% endblock %}

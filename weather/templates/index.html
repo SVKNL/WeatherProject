@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% block title %}<title>Weather</title>{% endblock %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Добавление дополнительного статического CSS файла -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          {% block sidebar %}
+            <ul class="sidebar-nav" >
+              <ul class="sidebar-nav">
+
+                …<form method="POST" >
+                 {% csrf_token %}
+
+        <label>Введите город</label><br>
+        <input type = 'text' name="city" list="autocomplete" value='{{ recently.0}}' style="width: 150px; height: 50px;" />
+                  <datalist id="autocomplete">
+                        {% for i in autocomplete %}
+                            <option value="{{ i.name }}"></option>
+                        {% endfor %}
+                  </datalist>
+
+    <input type="submit" value="Искать" style="width: 150px; height: 50px;" >
+</form>
+
+
+
+                   <ul><pre>History:</pre></ul>
+              {% for i in recently %}
+                  <a href="{% url 'city' i %}"><ul>{{ i }}</ul></a>
+              {% endfor %}
+
+            </ul>
+            </ul>
+          {% endblock %}
+        </div>
+        <div class="col-sm-10 ">{% block content %}{% endblock %}
+
+
+            <div class="pagination">
+              <span class="page-links">
+
+
+              </span>
+            </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>

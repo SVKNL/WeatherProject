@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63f93fed-2909-4713-b6e1-cb97c3bdea3e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WeatherProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.cache.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/meteo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/test_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/test_meteo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/forecast/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/templates/forecast.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/templates/not_found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/weather/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/weather/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/weather/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/weather/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/weather/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/weather/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jL4IgnNybqx5WlUnhvWdIkaxri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weather/forecast" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63f93fed-2909-4713-b6e1-cb97c3bdea3e" name="Changes" comment="" />
+      <created>1721152945569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721152945569</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
