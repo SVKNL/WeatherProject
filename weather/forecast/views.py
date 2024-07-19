@@ -15,16 +15,19 @@ from django.db.models import F
 # сводится к переводу шорт-прогноза в словарь для подстановки в шаблон, также выдает списки с часами и датами для
 # местного часового пояса начиная с текущего момента
 def helper(request, city):
-    if 'recently_viewed' in request.session:
-        if city in request.session['recently_viewed']:
-            request.session['recently_viewed'].remove(city)
-        request.session['recently_viewed'].insert(0, city)
-        if len(request.session['recently_viewed']) > 10:
-            request.session['recently_viewed'].pop()
-    else:
-        request.session['recently_viewed'] = [city]
-    request.session.modified = True
-    recently = request.session['recently_viewed']
+    try:
+        if 'recently_viewed' in request.session:
+            if city in request.session['recently_viewed']:
+                request.session['recently_viewed'].remove(city)
+            request.session['recently_viewed'].insert(0, city)
+            if len(request.session['recently_viewed']) > 10:
+                request.session['recently_viewed'].pop()
+        else:
+            request.session['recently_viewed'] = [city]
+        request.session.modified = True
+        recently = request.session['recently_viewed']
+    except:
+        recently = None
     forecast = Forecast(city)
     if City.objects.filter(name = city).exists():
         City.objects.filter(name = city).update(requests = F('requests') + 1)
@@ -74,9 +77,9 @@ def index(request):
         except:
             return render(request, 'not_found.html')
         return render(request, 'forecast.html', context)
-    if 'recently_viewed' in request.session:
+    try:
         recently = request.session['recently_viewed']
-    else:
+    except:
         recently = None
     return render(request, 'index.html', {'recently': recently})
 
