@@ -4,38 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f93fed-2909-4713-b6e1-cb97c3bdea3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WeatherProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/.cache.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/meteo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/test_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/test_meteo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/tests/test_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/forecast/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/templates/forecast.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/templates/not_found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/weather/wsgi.py" afterDir="false" />
+    <list default="true" id="63f93fed-2909-4713-b6e1-cb97c3bdea3e" name="Changes" comment="Final project">
+      <change afterPath="$PROJECT_DIR$/weather/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/forecast/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/forecast/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/templates/forecast.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/templates/forecast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/weather/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather/weather/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SVKNL"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SVKNL/WeatherProject.git",
+    "accountId": "70b4eafe-1df4-47cd-b53e-13c28b52ea95"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -94,9 +82,32 @@
       <option name="presentableId" value="Default" />
       <updated>1721152945569</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final project">
+      <option name="closed" value="true" />
+      <created>1721343223297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721343223297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Final project">
+      <option name="closed" value="true" />
+      <created>1721343390214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721343390214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.dockerignore" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Final project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final project" />
   </component>
 </project>

@@ -46,6 +46,7 @@
 
   </table>
 </div>
+<div style="overflow-x: auto;">
 <table>
 
 
@@ -60,14 +61,15 @@
   <tr>
 
     <td><pre>{{ i.date }}</pre></td>
-    <td><pre>Temperature {{ i.morning.weather }} Precipitation {{ i.morning.precipitation }}%</pre></td>
-    <td><pre>Temperature {{ i.day.weather }} Precipitation {{ i.day.precipitation }}%</pre></td>
-    <td><pre>Temperature {{ i.evening.weather }} Precipitation {{ i.evening.precipitation }}%</pre></td>
-    <td><pre>Temperature {{ i.night.weather }} Precipitation {{ i.night.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.morning.weather }} Precipitation chance {{ i.morning.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.day.weather }} Precipitation chance {{ i.day.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.evening.weather }} Precipitation chance {{ i.evening.precipitation }}%</pre></td>
+    <td><pre>Temperature {{ i.night.weather }} Precipitation chance {{ i.night.precipitation }}%</pre></td>
   </tr>
 {% endfor %}
 </table>
-        </td>
+</div>
+  </td>
 
     </tr>
 

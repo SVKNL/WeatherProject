@@ -74,7 +74,10 @@ def index(request):
         except:
             return render(request, 'not_found.html')
         return render(request, 'forecast.html', context)
-    recently = request.session['recently_viewed']
+    if 'recently_viewed' in request.session:
+        recently = request.session['recently_viewed']
+    else:
+        recently = None
     return render(request, 'index.html', {'recently': recently})
 
 
